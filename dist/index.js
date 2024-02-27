@@ -29,7 +29,7 @@ let startGame = () => {
 }
 
 document.getElementById('start').addEventListener('click', () => {
-    timer = setInterval(startGame, 2000)
+    timer = setInterval(startGame, 1000)
 })
 
 document.getElementById('stop').addEventListener(('click'), () => {
